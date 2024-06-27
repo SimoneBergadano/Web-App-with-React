@@ -1,0 +1,65 @@
+#grid{
+    display: flex;
+    justify-content: center;
+  }
+
+
+#logout{
+  display: flex;
+  flex-direction: row;
+}
+
+
+#username_navbar{
+  font-size: 21px;
+  color: white;
+}
+  
+
+.pulsanti_griglia {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.verticale{
+  display: flex;
+  flex-direction: column;
+}
+
+.orizzontale{
+  display: flex;
+  flex-direction: row;
+}
+
+.centra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margine{
+  margin: 1rem;
+}
+
+.responsive{
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  height: auto;
+  width: auto;
+}
+
+
+
+
+
+

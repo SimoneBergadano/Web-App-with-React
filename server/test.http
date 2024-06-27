@@ -1,0 +1,50 @@
+
+
+# Test API
+
+###
+
+GET http://localhost:3001/api/animals/difficile
+
+###
+
+
+POST http://localhost:3001/api/matches/new
+content-type: application/json
+
+{
+  "difficulty": "media"
+}
+
+###
+
+###
+
+
+POST http://localhost:3001/api/askQuestion/147
+content-type: application/json
+
+{
+  "property": "Mammifero"
+}
+
+###
+
+###
+
+
+POST http://localhost:3001/api/guessAnimal/147
+content-type: application/json
+
+{
+  "animal": "Volpe"
+}
+
+###
+
+### APE autenticata non funziona da qui
+
+GET http://localhost:3001/api/history
+content-type: application/json
+
+###
